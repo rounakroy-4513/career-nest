@@ -1,75 +1,75 @@
-🚀 Project Name
+#  AI-Powered Centralized Job Board Platform
 
-A modern React application built using Vite for fast development and optimized production builds.
+A modern **AI-powered job board platform** that helps job seekers discover relevant opportunities, understand job descriptions instantly, and evaluate how well their profile matches a role. The platform leverages **Groq API** for intelligent recommendations and resume analysis, making the job application process faster and more effective.
 
-📌 Tech Stack
+---
 
-⚛️ React
+## ✨ Features
 
-⚡ Vite
+### AI-Powered Job Recommendations
+- Integrated **Groq API** to analyze user profiles and recommend jobs.
+- Intelligently hand-picks the **Top 3 most relevant job roles** based on:
+  - Skills
+  - Experience
+  - Education
+  - Resume content
+- Reduces the time spent searching through irrelevant listings.
 
-🎨 CSS / Tailwind (if you're using it, otherwise remove)
+---
 
-🧹 ESLint
+### AI Job Summaries
+Long and complex job descriptions are automatically converted into concise, easy-to-read summaries.
 
-📂 Project Structure
-project-root/
-│
-├── public/          # Static assets
-├── src/             # Source code
-│   ├── components/  # Reusable components
-│   ├── App.jsx
-│   ├── main.jsx
-│
-├── .gitignore
-├── package.json
-├── vite.config.js
-└── README.md
-🛠️ Installation & Setup
-1️⃣ Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
-2️⃣ Navigate into project folder
-cd your-repo-name
-3️⃣ Install dependencies
-npm install
-4️⃣ Run development server
-npm run dev
+Each summary includes:
+- TL;DR bullet-point overview
+- Automatically generated skill tags
+- Key responsibilities
+- Important qualifications
 
-App will run at:
+This enables users to quickly determine whether a role is worth applying for.
 
-http://localhost:5173
-📦 Build for Production
-npm run build
+---
 
-To preview the production build:
+###  Resume Fit Score
+Developed a custom **Fit Score Algorithm** that compares a candidate's resume against job requirements.
 
-npm run preview
-🔥 Features
+The algorithm provides:
+- Visual **Score Ring**
+- Overall compatibility score
+- Missing or weak skills
+- Suggestions for improving the resume before applying
 
-Fast Refresh with Vite
+This helps applicants understand how competitive they are for a specific position.
 
-Optimized production builds
+---
 
-Clean and scalable folder structure
+## 🛠️ Tech Stack
 
-ESLint configuration for code quality
+| Category | Technologies |
+|----------|--------------|
+| Frontend | React.js, Tailwind CSS |
+| Backend | Node.js, Express.js |
+| AI | Groq API |
 
-⚙️ Available Scripts
-Command	Description
-npm run dev	Start development server
-npm run build	Build for production
-npm run preview	Preview production build
-npm run lint	Run ESLint
-🧠 Why Vite?
+---
 
-Instant server start
+## How It Works
 
-Lightning fast HMR
+1. User uploads or creates a profile/resume.
+2. Resume is analyzed using AI.
+3. The platform:
+   - Recommends the **Top 3 matching jobs**
+   - Generates AI-powered summaries for job descriptions
+   - Calculates a Fit Score for every job
+4. Users can instantly identify:
+   - Their strongest matches
+   - Skill gaps
+   - Roles most worth applying to
 
-Optimized bundling
+---
 
-Modern development experience
+## License
 
-📄 License
+This project is licensed under the **MIT License**.
 
-This project is open source and available under the MIT License.
+---
